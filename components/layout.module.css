@@ -1,0 +1,108 @@
+/* .container {
+    max-width: 36rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+  }  */
+  
+.header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+ 
+
+ .main {
+  height:100vh;
+  width: 80%;
+  z-index: 0;
+  position:fixed;
+  background: rgb(50, 51, 55);
+  margin-left: 20%;
+ }
+
+ .sidebar {
+  height:100vh;
+  
+  
+  width: 20%;
+  position:fixed;
+  z-index: 1;
+  background: rgb(39, 38, 38);
+  margin-left: 0;
+  box-shadow: 0 0 25px rgba(0,0,0,0.75);
+  
+  
+ }
+
+ .header {
+  position: center;
+  
+ }
+
+ .degree {
+  list-style: none;
+  background-image: url(../public/images/seal-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 38px;
+  padding: 10px 0px 10px 47px;
+  float: right;
+  margin-right: 30px;
+  width: 287px;
+  color: whitesmoke;
+  font-size: .92rem;
+  
+ }
+
+ .aSide {
+  float: left;
+  padding: 10px 0px 10px 40px;
+  height: 48.8 px;
+  width: 287px;
+ }
+
+ .navlink{
+  float: right;
+  margin-right: 0;
+	list-style: none;
+  width: 287px;
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  background-size: 22px;
+  z-index: 2;
+ }
+
+ .navlink a {
+  color: whitesmoke;
+  }
+
+
+  .navlink:hover {
+    background-color: turquoise;
+  }
+
+  .navlink:hover a{
+    color:black;
+  }
+
+ .navlink:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+
+
+ .contact{
+  background-image: url(../public/images/mail1.png);
+}
+
+.portfolio{
+  background-image: url(../public/images/folder.png);
+}
+  
+.aboutme{
+  background-image: url(../public/images/profile.png);
+}
+ 
