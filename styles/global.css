@@ -19,8 +19,6 @@ a {
   
 }
 
-
-
 img {
   max-width: 100%;
   display: block;
@@ -35,4 +33,36 @@ p {
 h1 {
   margin-left: 38px;
   color:white;
+}
+
+th {
+  color: white;
+  height:70px;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-color: white;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  
+}
+
+th, td {
+  width: 33%;
+  color: white;
+  text-align: center;
+}
+
+td {
+  font-size: .9em;
+}
+
+figcaption {
+margin-left: 12px;
+margin-top: 5px;
+font-size: .89em;
 }

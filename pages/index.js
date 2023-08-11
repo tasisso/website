@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { siteTitle } from '/Users/troysisson/Documents/Dev/personal-website/components/layout.js';
 import utilStyles from '/Users/troysisson/Documents/Dev/personal-website/styles/utils.module.css';
+import styles from '/components/layout.module.css';
 
 export default function Home() {
   return (
@@ -27,8 +28,37 @@ export default function Home() {
           <p>
             Aside from work, I like to spend time outdoors running, cycling,
             snowboarding, and rock climbing. I also enjoy playing piano, basketball (go Bruins),
-            and games like Super Smash Bros. 
+            and games like Super Smash Bros. or Elden Ring.
           </p>
+          <h3 className={styles.tableHeader}>Relevant Coursework</h3>
+          <table className={styles.courses}>
+            <tr>
+              <th className={styles.th1}>Computer Science</th>
+              <th className={styles.th2}>Math</th>
+              <th className={styles.th3}>Biochemistry</th>
+            </tr>
+            <tr>
+              <td>Introduction to Computer Science I & II</td>
+              <td>Differential and Integral Calculus</td>
+              <td>Biochemical Methods I & II</td>
+            </tr>
+            <tr>
+              <td>Introduction to Algorthims & Complexity</td>
+              <td>Calculus of Several Variables</td>
+              <td>DNA, RNA & Protein Synthesis</td>
+            </tr>
+            <tr>
+              <td>Introduction to Bioinformatics</td>
+              <td>Linear Algebra</td>
+              <td>Enzymes, Structures & Metabolism</td>
+            </tr>
+            <tr>
+              <td>Algorithms in Bioinformatics</td>
+              <td>Introduction to Discrete Structures</td>
+              <td>Physical Thermodynamics</td>
+            </tr>
+          </table>
+          <figcaption>Upcoming: Machine Learning Applications in Biomedicine (Fall 2023)</figcaption>
         </div>
       </section>
     </Layout>
