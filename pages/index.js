@@ -16,8 +16,8 @@ export default function Home() {
         <div className={utilStyles.contentBox}>
           <p>Hello, my name is Troy.
             I grew up in Fort Collins, CO, and completed my undergrad at the University of
-            California, Los Angeles. After taking my first Computer Science class there, I was 
-            immediately hooked on the subject. From then on, I searched for ways to integrate this newfound passion
+            California, Los Angeles. After encountering C++ in my first Computer Science course, I was understandably
+            hooked on the subject. From then on, I searched for ways to integrate this newfound passion
             with my existing interest in medicine. I am excited to continue this journey through
             UCLA's Data Science in Biomedicine M.S. Program in the fall of 2023. Since the program is part-time,
             I plan to work and study concurrently.
@@ -25,14 +25,13 @@ export default function Home() {
           <p>
 
           </p>
-          <p>
-            Aside from work, I like to spend time outdoors running, cycling,
-            snowboarding, and rock climbing. I also enjoy playing piano, basketball (go Bruins),
+          <p className={utilStyles.lineBreak}>
+            Aside from school, I like to spend time outdoors running, cycling, and rock climbing. I also enjoy playing piano, basketball (go Bruins),
             and games like Super Smash Bros. or Elden Ring.
           </p>
           <h3 className={styles.tableHeader}>Relevant Coursework</h3>
           <table className={styles.courses}>
-            <tr>
+          <tr>
               <th className={styles.th1}>Computer Science</th>
               <th className={styles.th2}>Math</th>
               <th className={styles.th3}>Biochemistry</th>

@@ -42,7 +42,7 @@ th {
 
 table, th, td {
   border: 1px solid;
-  border-color: white;
+  border-color: black;
 }
 
 table {
@@ -53,12 +53,13 @@ table {
 
 th, td {
   width: 33%;
-  color: white;
   text-align: center;
 }
 
 td {
   font-size: .9em;
+  color:black;
+  background-color: #F0F0F0;
 }
 
 figcaption {
