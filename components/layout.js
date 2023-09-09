@@ -10,13 +10,13 @@ export const siteTitle = 'Troy Sisson';
 
 export default function Layout({ children, home }) {
   return (
-    //className={styles.container}
+    
     <div > 
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Personal website"
         />
         <meta
           property="og:image"
@@ -61,11 +61,19 @@ export default function Layout({ children, home }) {
                   alt=""
                 />
               </Link>
-              <h2 className={utilStyles.headingLg}>
+              <h1 className={utilStyles.headingLg}>
                 <Link href="/" className={utilStyles.colorInherit}>
                   {name}
                 </Link>
-              </h2>
+              </h1>
+              <ul>
+                <li className = {styles.degree}>
+                  B.S. Biochemistry, Minor in Bioinformatics (2022)
+                </li>
+                <li className = {styles.degree}>
+                  M.S. Data Science in Biomedicine (Expected 2025)
+                </li>
+              </ul>
             </>
           )}
         </header>
@@ -85,7 +93,7 @@ export default function Layout({ children, home }) {
               </div>
               <div className="tab3">
                 <li className={[styles.contact, styles.navlink].join(' ')}>
-                  <Link className={styles.aSide} href="/contact">Contact</Link>
+                  <Link className={styles.aSide} href="/contact">Connect</Link>
                 </li>
               </div>
             </ul>
@@ -93,11 +101,11 @@ export default function Layout({ children, home }) {
         </nav>
       </div>
       <main className={styles.main}>{children}</main>
-      {!home && (
+      {/* {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

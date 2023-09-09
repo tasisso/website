@@ -19,7 +19,7 @@
   width: 80%;
   z-index: 0;
   position:fixed;
-  background: rgb(50, 51, 55);
+  background: rgb(41, 41, 44);
   margin-left: 20%;
  }
 
@@ -81,12 +81,12 @@
 
 
   .navlink:hover {
-    background-color: turquoise;
+    
+    filter: invert(100%);
+    background-color:#bf1f2f;
   }
 
-  .navlink:hover a{
-    color:black;
-  }
+ 
 
  .navlink:not(:last-child) {
   margin-bottom: 10px;
@@ -116,11 +116,11 @@
 }
 
 .th2 {
-  background-color: #FFB300;
+  background-color: #FFB81C;
 }
 
 .th3 {
-  background-color: #2774AE;
+  background-color: #003B5C;
 }
 
 .tableHeader {

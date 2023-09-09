@@ -4,3 +4,4 @@ import '/Users/troysisson/Documents/Dev/personal-website/components/layout.modul
 export default function App({ Component, pageProps }) {
     return <Component {...pageProps} />;
   }
+
