@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-import Layout from '/Users/troysisson/Documents/Dev/personal-website/components/layout.js';
-import utilStyles from '/Users/troysisson/Documents/Dev/personal-website/styles/utils.module.css';
+import Layout from '../personal-website/components/layout.js';
+import utilStyles from '../styles/utils.module.css';
 
 
 export default function Contact() {

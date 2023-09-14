@@ -42,10 +42,10 @@ export default function Layout({ children, home }) {
               <h1 className={utilStyles.headingLg}>{name}</h1>
               <ul>
                 <li className = {styles.degree}>
-                  B.S. Biochemistry, Minor in Bioinformatics (2022)
+                  M.S. Data Science in Biomedicine (Expected 2025)
                 </li>
                 <li className = {styles.degree}>
-                  M.S. Data Science in Biomedicine (Expected 2025)
+                B.S. Biochemistry, Minor in Bioinformatics (2022)
                 </li>
               </ul>
             </>
@@ -68,10 +68,10 @@ export default function Layout({ children, home }) {
               </h1>
               <ul>
                 <li className = {styles.degree}>
-                  B.S. Biochemistry, Minor in Bioinformatics (2022)
+                  M.S. Data Science in Biomedicine (Expected 2025)
                 </li>
                 <li className = {styles.degree}>
-                  M.S. Data Science in Biomedicine (Expected 2025)
+                  B.S. Biochemistry, Minor in Bioinformatics (2022)
                 </li>
               </ul>
             </>

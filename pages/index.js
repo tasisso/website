@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Layout, { siteTitle } from '/Users/troysisson/Documents/Dev/personal-website/components/layout.js';
-import utilStyles from '/Users/troysisson/Documents/Dev/personal-website/styles/utils.module.css';
+import Layout, { siteTitle } from '../components/layout.js';
+import utilStyles from '../styles/utils.module.css';
 import styles from '/components/layout.module.css';
 
 export default function Home() {

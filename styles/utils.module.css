@@ -137,8 +137,9 @@
     margin-left: 25.5%;
     margin-top: 300px;
     border-radius: 20px;
+    border-width: medium;
     border: solid rgb(2, 2, 2);
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(65, 65, 70);
     text-align: center;
     color:white;
   }
@@ -169,10 +170,10 @@
 
   .projectEntry{
     
-    background: rgb(41, 41, 44);
+    background: rgb(65, 65, 70);
     width: 700px;
     height: 10vh;
-    
+    color: white;
     list-style: none;
     margin-left: 20px;
     vertical-align: middle;
@@ -188,6 +189,7 @@
     width: 700px;
     float: left;
     margin-left:0;
+    color: white;
     
   }
 
@@ -211,7 +213,7 @@
   }
 
   .projectEntry a {
-    color: rgb(157, 156, 156);
+    color: white;
     }
   
   
