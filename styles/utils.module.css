@@ -286,8 +286,8 @@
   .tble {
     border-collapse: collapse;
     border: 1px solid;
-    
-    margin: 5px;
+    padding: 10px 0px 10px 0px;
+    margin: 0 auto;
     border-color: black;
     
   }
