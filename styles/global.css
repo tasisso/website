@@ -35,35 +35,3 @@ h1 {
   color:white;
 }
 
-th {
-  color: white;
-  height:70px;
-}
-
-table, th, td {
-  border: 1px solid;
-  border-color: black;
-}
-
-table {
-  border-collapse: collapse;
-  margin: 0 auto;
-  
-}
-
-th, td {
-  width: 33%;
-  text-align: center;
-}
-
-td {
-  font-size: .9em;
-  color:black;
-  background-color: #F0F0F0;
-}
-
-figcaption {
-margin-left: 12px;
-margin-top: 5px;
-font-size: .89em;
-}

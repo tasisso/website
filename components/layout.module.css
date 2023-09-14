@@ -106,26 +106,5 @@
   background-image: url(../public/images/profile.png);
 }
  
-.courses {
-  width: 98%
-  
-}
 
-.th1 {
-  background-color: #2774AE;
-}
 
-.th2 {
-  background-color: #FFB81C;
-}
-
-.th3 {
-  background-color: #003B5C;
-}
-
-.tableHeader {
-  margin-bottom: 5px;
-  margin-left: 12px;
-  font-size: .8em;
-  font-weight: normal;
-}

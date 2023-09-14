@@ -221,5 +221,67 @@
       filter: brightness(160%);
       
     }
+
+ 
   
+  .fig {
+  margin-left: 12px;
+  margin-top: 5px;
+  font-size: .89em;
+  }
+  
+  .th1 {
+    background-color: #2774AE;
+  }
+  
+  .th2 {
+    background-color: #FFB81C;
+  }
+  
+  .th3 {
+    background-color: #003B5C;
+  }
+  
+  .tableHeader {
+    margin-bottom: 5px;
+    margin-left: 12px;
+    font-size: .8em;
+    font-weight: normal;
+  }
+
+  .thea {
     
+    color: white;
+    height:70px;
+    border-collapse: collapse;
+    border: 1px solid;
+    
+    border-color: black;
+    width: 33%;
+    text-align: center;
+    
+  }
+  
+  .tdat {
+    
+    border-collapse: collapse;
+    border: 1px solid;
+    border-color: black;
+    width: 33%;
+    text-align: center;
+    font-size: .9em;
+    color:black;
+    background-color: #F0F0F0;
+    
+  }
+  
+  .tble {
+    border-collapse: collapse;
+    border: 1px solid;
+    
+    margin: 0 auto;
+    border-color: black;
+    
+  }
+  
+ 
