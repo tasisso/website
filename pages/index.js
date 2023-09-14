@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       
       <section className={utilStyles.headingMd}>
-        <h1>About Me</h1>
+        <h1 className={utilStyles.abtme}>About Me</h1>
         <div className={utilStyles.contentBox}>
           <p>Hello world! My name is Troy.
             I grew up in Fort Collins, CO, and completed my undergrad at the University of
