@@ -130,9 +130,10 @@
     position: fixed;
     padding: 1px 6px 1px 6px;
     text-decoration: none;
-    display: inline-block;
+    display: flexbox;
     font-size: 20px;
     height: 100px;
+    line-height: 100px;
     width: 400px;
     margin-left: 25.5%;
     margin-top: 300px;
@@ -140,7 +141,6 @@
     border-width: medium;
     border: solid rgb(2, 2, 2);
     background-color: rgb(65, 65, 70);
-    text-align: center;
     color:white;
   }
 
@@ -152,8 +152,10 @@
 
   .buttonImg {
     display: inline-block;
-    padding-right: 5px;
-    margin-left: -50px;
+    padding-right: 0px;
+    margin-left: 20px;
+    vertical-align: middle;
+    
   }
 
   .resume > .buttonImg,
@@ -163,8 +165,14 @@
 
   .bText {
     
-    position: relative;
+    position:relative;
     text-align: center;
+    text-decoration: none;
+    color:white;
+    vertical-align:top;
+    
+    
+    
     
   }
 
