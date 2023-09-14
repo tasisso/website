@@ -27,39 +27,39 @@ export default function Home() {
             Aside from learning new tools, I like to stay active by cycling, lifting weights, and rock climbing in my free time. 
             I also enjoy playing classical piano, basketball (go Bruins), and video games with friends.
           </p>
-          <h3 className={styles.tableHeader}>Relevant Coursework</h3>
-          <table className={styles.courses}>
-            <thead>
+          <h3 className={utilStyles.tableHeader}>Relevant Coursework</h3>
+          <table className={utilStyles.tble}>
+            <thead className={utilStyles.thea}>
               <tr>
-                <th className={styles.th1}>Computer Science</th>
-                <th className={styles.th2}>Math</th>
-                <th className={styles.th3}>Biochemistry</th>
+                <th className={[utilStyles.th1, styles.thea].join(' ')}>Computer Science</th>
+                <th className={[utilStyles.th2, styles.thea].join(' ')}>Math</th>
+                <th className={[utilStyles.th3, styles.thea].join(' ')}>Biochemistry</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Introduction to Computer Science I & II</td>
-                <td>Differential and Integral Calculus</td>
-                <td>Biochemical Methods I & II</td>
+                <td className={utilStyles.tdat}>Introduction to Computer Science I & II</td>
+                <td className={utilStyles.tdat}>Differential and Integral Calculus</td>
+                <td className={utilStyles.tdat}>Biochemical Methods I & II</td>
               </tr>
               <tr>
-                <td>Introduction to Algorthims & Complexity</td>
-                <td>Calculus of Several Variables</td>
-                <td>DNA, RNA & Protein Synthesis</td>
+                <td className={utilStyles.tdat}>Introduction to Algorthims & Complexity</td>
+                <td className={utilStyles.tdat}>Calculus of Several Variables</td>
+                <td className={utilStyles.tdat}>DNA, RNA & Protein Synthesis</td>
               </tr>
               <tr>
-                <td>Introduction to Computer Organization</td>
-                <td>Linear Algebra</td>
-                <td>Enzymes, Structures & Metabolism</td>
+                <td className={utilStyles.tdat}>Introduction to Computer Organization</td>
+                <td className={utilStyles.tdat}>Linear Algebra</td>
+                <td className={utilStyles.tdat}>Enzymes, Structures & Metabolism</td>
               </tr>
               <tr>
-                <td>Algorithms in Bioinformatics</td>
-                <td>Introduction to Discrete Structures</td>
-                <td>Physical Thermodynamics</td>
+                <td className={utilStyles.tdat}>Algorithms in Bioinformatics</td>
+                <td className={utilStyles.tdat}>Introduction to Discrete Structures</td>
+                <td className={utilStyles.tdat}>Physical Thermodynamics</td>
               </tr>
             </tbody>
           </table>
-          <figcaption>Upcoming: Machine Learning Applications in Biomedicine (Fall 2023)</figcaption>
+          <figcaption className={utilStyles.fig}>Upcoming: Machine Learning Applications in Biomedicine (Fall 2023)</figcaption>
         </div>
       </section>
     </Layout>
