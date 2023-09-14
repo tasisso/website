@@ -47,19 +47,20 @@ export default function Contact() {
               </Link>
             </div>
 
-            <button className={utilStyles.resume}>
-              <Image className={utilStyles.buttonImg}
-                        priority
-                        src="/images/download-icon.png"
-                        height={90}
-                        width={90}
-                        alt=""
-                      />
-              <span className={utilStyles.bText}>Download Resume</span>
-              <Link href="" download>
-                    
+            <div className={utilStyles.resume}>
+              <Link className = {utilStyles.bText} href="/troy.sisson.resume.pdf" download target="_blank">
+                Download Resume
+                <Image className={utilStyles.buttonImg}
+                          priority
+                          src="/images/download-icon.png"
+                          height={90}
+                          width={90}
+                          alt=""
+                        />
+                        
+                
               </Link>
-            </button>
+            </div>
           
         </Layout>
       );
