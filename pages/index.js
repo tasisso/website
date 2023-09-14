@@ -22,40 +22,42 @@ export default function Home() {
             this journey through UCLA's Data Science in Biomedicine M.S. Program in the fall of 2023. 
             The program is part-time, allowing me to work and study concurrently.
           </p>
-          <p>
-
-          </p>
+          <p />
           <p className={utilStyles.lineBreak}>
             Aside from learning new tools, I like to stay active by cycling, lifting weights, and rock climbing in my free time. 
             I also enjoy playing classical piano, basketball (go Bruins), and video games with friends.
           </p>
           <h3 className={styles.tableHeader}>Relevant Coursework</h3>
           <table className={styles.courses}>
-            <tr>
-              <th className={styles.th1}>Computer Science</th>
-              <th className={styles.th2}>Math</th>
-              <th className={styles.th3}>Biochemistry</th>
-            </tr>
-            <tr>
-              <td>Introduction to Computer Science I & II</td>
-              <td>Differential and Integral Calculus</td>
-              <td>Biochemical Methods I & II</td>
-            </tr>
-            <tr>
-              <td>Introduction to Algorthims & Complexity</td>
-              <td>Calculus of Several Variables</td>
-              <td>DNA, RNA & Protein Synthesis</td>
-            </tr>
-            <tr>
-              <td>Introduction to Computer Organization</td>
-              <td>Linear Algebra</td>
-              <td>Enzymes, Structures & Metabolism</td>
-            </tr>
-            <tr>
-              <td>Algorithms in Bioinformatics</td>
-              <td>Introduction to Discrete Structures</td>
-              <td>Physical Thermodynamics</td>
-            </tr>
+            <thead>
+              <tr>
+                <th className={styles.th1}>Computer Science</th>
+                <th className={styles.th2}>Math</th>
+                <th className={styles.th3}>Biochemistry</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Introduction to Computer Science I & II</td>
+                <td>Differential and Integral Calculus</td>
+                <td>Biochemical Methods I & II</td>
+              </tr>
+              <tr>
+                <td>Introduction to Algorthims & Complexity</td>
+                <td>Calculus of Several Variables</td>
+                <td>DNA, RNA & Protein Synthesis</td>
+              </tr>
+              <tr>
+                <td>Introduction to Computer Organization</td>
+                <td>Linear Algebra</td>
+                <td>Enzymes, Structures & Metabolism</td>
+              </tr>
+              <tr>
+                <td>Algorithms in Bioinformatics</td>
+                <td>Introduction to Discrete Structures</td>
+                <td>Physical Thermodynamics</td>
+              </tr>
+            </tbody>
           </table>
           <figcaption>Upcoming: Machine Learning Applications in Biomedicine (Fall 2023)</figcaption>
         </div>
