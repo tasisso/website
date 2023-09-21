@@ -7,7 +7,7 @@ import utilStyles from '../styles/utils.module.css';
 
 export default function Contact() {
     return (
-        <Layout contact>
+        <Layout>
           <h1>Connect</h1>
           
             <div className={utilStyles.contactLink1}>

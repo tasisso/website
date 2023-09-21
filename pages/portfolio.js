@@ -6,7 +6,7 @@ import utilStyles from '../styles/utils.module.css';
 
 export default function Portfolio() {
   return (
-    <Layout portfolio>
+    <Layout>
       <h1>Portfolio</h1>
       <ul>
         <div>
