@@ -35,7 +35,7 @@ export default function Contact() {
               </Link>
             </div>
             <div className={utilStyles.contactLink3}>
-              <Link href="mailto:tasisson12@gmail.com" download target="_blank">
+              <Link href="mailto:tasisson12@gmail.com">
                     <Image
                       priority
                       src="/images/mail-button.png"
