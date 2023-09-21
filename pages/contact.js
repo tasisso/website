@@ -11,7 +11,7 @@ export default function Contact() {
           <h1>Connect</h1>
           
             <div className={utilStyles.contactLink1}>
-              <Link href="https://github.com/tasisso">
+              <Link href="https://github.com/tasisso" download target="_blank">
                     <Image
                       priority
                       src="/images/github-logo.png"
@@ -23,7 +23,7 @@ export default function Contact() {
               </Link>
             </div>
             <div className={utilStyles.contactLink2}>
-              <Link href="https://linkedin.com/in/troy-sisson-760410248">
+              <Link href="https://linkedin.com/in/troy-sisson-760410248" download target="_blank">
                     <Image
                       priority
                       src="/images/linkedin-logo.png"
@@ -35,7 +35,7 @@ export default function Contact() {
               </Link>
             </div>
             <div className={utilStyles.contactLink3}>
-              <Link href="mailto:tasisson12@gmail.com">
+              <Link href="mailto:tasisson12@gmail.com" download target="_blank">
                     <Image
                       priority
                       src="/images/mail-button.png"
