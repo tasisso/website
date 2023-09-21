@@ -35,17 +35,19 @@ export default function Layout({ children, home }) {
             <>
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="/images/portrait.jpg"
                 className={utilStyles.borderCircle}
                 height={144}
                 width={144}
+              
             
                 alt=""
+                
               />
               <h1 className={utilStyles.headingLg}>{name}</h1>
               <ul>
                 <li className = {styles.degree}>
-                  M.S. Data Science in Biomedicine (Expected 2024)
+                  M.S. Data Science in Biomedicine (Expected 2025)
                 </li>
                 <li className = {styles.degree}>
                 B.S. Biochemistry, Minor in Bioinformatics (2022)
@@ -57,7 +59,7 @@ export default function Layout({ children, home }) {
               <Link href="/">
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/cat.jpg"
                   className={utilStyles.borderCircle}
                   height={144}
                   width={144}
@@ -71,7 +73,7 @@ export default function Layout({ children, home }) {
               </h1>
               <ul>
                 <li className = {styles.degree}>
-                  M.S. Data Science in Biomedicine (Expected 2024)
+                  M.S. Data Science in Biomedicine (Expected 2025)
                 </li>
                 <li className = {styles.degree}>
                   B.S. Biochemistry, Minor in Bioinformatics (2022)
@@ -104,11 +106,6 @@ export default function Layout({ children, home }) {
         </nav>
       </div>
       <main className={styles.main}>{children}</main>
-      {/* {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
-        </div>
-      )} */}
     </div>
   );
 }

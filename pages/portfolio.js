@@ -6,15 +6,15 @@ import utilStyles from '../styles/utils.module.css';
 
 export default function Portfolio() {
   return (
-    <Layout>
+    <Layout portfolio>
       <h1>Portfolio</h1>
       <ul>
         <div>
           <li className={utilStyles.projectEntry}>
             <Link className={utilStyles.prLink} href="https://github.com/tasisso/website">Personal Website (2023)</Link>
             <div className={utilStyles.typewriteBox}>
-              <p>&#62; I made this website using Node js. 
-                This project allowed me to practice the basics of HTML, JavaScript, and CSS.
+              <p>&#62; I made this website primarily with React and Node js. 
+                This project allowed me to learn some of the basics of HTML, JavaScript, and CSS.
               </p>
             </div>
           </li>
@@ -23,8 +23,7 @@ export default function Portfolio() {
           <li className={utilStyles.projectEntry}>
             <Link className={utilStyles.prLink} href="https://github.com/tasisso/website">Python Data Visualization Practice (2023)</Link>
             <div className={utilStyles.typewriteBox}>
-              <p>&#62; Oh here's another good one. I completed some python Coursera refreshers and 
-                and got practice with some different libraries.
+              <p>&#62; This quick project from Coursera gave me some extra practice with important python libraries like numpy, pandas, and matplotlib.
               </p>
             </div>
           </li>
